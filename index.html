@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erdoglija - Usluge Obrade Metala</title>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'UnifrakturMaguntia', serif;
+            background-color: #111;
+            color: #ddd;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .metallic {
+            background: linear-gradient(180deg, #c0c0c0, #808080, #c0c0c0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(192, 192, 192, 0.3);
+        }
+        header {
+            background: linear-gradient(180deg, #333, #111);
+            padding: 50px 20px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+        h1, h2, h3 {
+            font-size: 3em;
+            margin: 10px 0;
+        }
+        h2 {
+            font-size: 2.5em;
+        }
+        h3 {
+            font-size: 2em;
+        }
+        section {
+            padding: 40px 20px;
+            background: linear-gradient(180deg, #222, #111);
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(192, 192, 192, 0.1);
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .subcategory {
+            margin: 20px 0;
+        }
+        .service {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .service img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background: linear-gradient(180deg, #111, #000);
+            padding: 20px;
+            font-size: 1.2em;
+        }
+        a {
+            color: #c0c0c0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-shadow: 0 0 5px #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="metallic">Erdoglija - Majstori Metala</h1>
+        <p class="metallic">Vaš pouzdan partner za obradu metala, alate i usluge. Kontaktirajte nas za vrhunske rezultate!</p>
+    </header>
+
+    <section id="usluge">
+        <h2 class="metallic">Naše Usluge</h2>
+
+        <div class="category">
+            <h3 class="metallic">Proizvodnja i izrada alata za secenje i savijanje lima</h3>
+            
+            <div class="subcategory">
+                <h4 class="metallic">Izrada novih noževa</h4>
+                <div class="service">
+                    <h5>Noževi za makaze</h5>
+                    <p>Izrada noževa za makaze za sečenje limova.</p>
+                    <p>Cena: 1000 - 5000 RSD</p>
+                    <p>Dužina: 10 - 50 cm<br>Širina: 5 - 10 cm<br>Debljina: 0.5 - 1 cm</p>
+                    <img src="cutting-tools-erdoglija-1.jpg" alt="Noževi za makaze">
+                </div>
+                <div class="service">
+                    <h5>Noževi za mlevenje</h5>
+                    <p>Izrada noževa za mlevenje plastike, drva</p>
+                    <p>Cena: Po dogovoru</p>
+                    <img src="cutting-tools-erdoglija-1.jpg" alt="Noževi za mlevenje">
+                </div>
+            </div>
+            
+            <div class="subcategory">
+                <h4 class="metallic">Izrada prizmi za savijanje</h4>
+                <div class="service">
+                    <h5>Prizme za apkant prese</h5>
+                    <p>Izrada i reparacija prizmi za savijanje limova za apkant prese.</p>
+                    <p>Cena: Po dogovoru</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3 class="metallic">Mašinska obrada metala</h3>
+            
+            <div class="subcategory">
+                <h4 class="metallic">Obrada metala</h4>
+                <div class="service">
+                    <h5>Strugarska obrada</h5>
+                    <p>Obrada metala na strugovima.</p>
+                </div>
+                <div class="service">
+                    <h5>Glodanje metala</h5>
+                    <p>Obrada metala glodalicom.</p>
+                </div>
+                <div class="service">
+                    <h5>Brusenje metala</h5>
+                    <p>Brusenje metala glodalicom.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h3 class="metallic">Brušenje i oštrenje</h3>
+            
+            <div class="subcategory">
+                <h4 class="metallic">Industrijsko brušenje</h4>
+                <div class="service">
+                    <h5>Brušenje ravnih površina</h5>
+                    <p>Brušenje ravnih predmeta do 4,5 metara dužine.</p>
+                </div>
+                <div class="service">
+                    <h5>Oštrenje industrijskih noževa</h5>
+                    <p>Povoljno i brzo oštrenje industrijskih noževa sa preuzimanjem i dostavom.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="metallic">Kontakt: <a href="mailto:info@erdoglija.com">info@erdoglija.com</a> | Telefon: +381 123 4567</p>
+        <p class="metallic">Adresa: Ulica Primer 123, Beograd, Srbija</p>
+    </footer>
+</body>
+</html>
